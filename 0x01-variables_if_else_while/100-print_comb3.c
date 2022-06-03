@@ -1,23 +1,23 @@
 #include <stdio.h>
 /**
- *main - Entry point
+ * main - Entry Point
  *
- *Return: Always 0 (Success)
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
-	int x, y;
+	int f, g;
 
-	for (x = 0; x < 9; x++)
+	for (f = 0; f < 9; f++)
 	{
-		for (y = x + 1; y < 10; y++)
+		for (g = f + 1; g < 10; g++)
 		{
-			putchar((x % 10) + '0');
-			putchar((x % 10) + '0');
+			putchar((f % 10) + '0');
+			putchar((g % 10) + '0');
 
-			if (x == 8 && y == 9)
+			if (f == 8 && g == 9)
 				continue;
-
+			
 			putchar(',');
 			putchar(' ');
 		}
