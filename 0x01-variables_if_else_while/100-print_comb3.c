@@ -17,7 +17,7 @@ int main(void)
 
 			if (f == 8 && g == 9)
 				continue;
-			
+
 			putchar(',');
 			putchar(' ');
 		}
