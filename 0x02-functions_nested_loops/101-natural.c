@@ -6,28 +6,16 @@
  */
 int main(void)
 {
-	unsigned long int x, y, z;
-	int i;
+	int a, b;
 
-	x = 0;
-	y = 0;
-	z = 0;
-
-	for (i = 0; i < 1024; ++i)
+	for (a = 0; a < 1024; a++)
 	{
 
-		if ((i % 3) == 0)
-		{
-			x = x + i;
-		}
+		if ((a % 3) == 0 || (a % 5) == 0)
+			b += a;
 
-		else if ((i % 5) == 0)
-		{
-			y = y + i;
-		}
 	}
-	z = x + y;
-	printf("%d\n", z);
+	printf("%d\n", b);
 
 	return (0);
 }
