@@ -2,15 +2,17 @@
 /**
 *print alphabet - prints the alphabet, in lowercase, followed by a new line.
 *Description: Prints the alphabet with _putchar
-*Return: Always 0.
+*Return: void
 */
 void print_alphabet(void)
 {
-	char alpha
+	char c;
+	c = 'a';
 
-	for (alpha ='a'; alpha <= 'z'; alpha++)
+	while (c <= 'z')
 	{
-		_putchar(alpha);
+		_putchar(c);
+		c++;
 	}
 	_putchar('\n');
 }
