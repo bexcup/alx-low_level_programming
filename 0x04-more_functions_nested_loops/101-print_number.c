@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * print_number - print an integer
- * @n - integer to be printed
+ * @n: integer to be printed
  */
 void print_number(int n)
 {
@@ -23,9 +23,9 @@ void print_number(int n)
 	while (y > 9)
 	{
 		y /= 10;
-		z *= 10; 
+		z *= 10;
 	}
 
-	for (; z >= 1; z /=10)
+	for (; z >= 1; z /= 10)
 	_putchar(((x / z) % 10) + '0');
 }
