@@ -1,9 +1,8 @@
 #include "main.h"
 /**
- * _strpbrk - gets the length of a prefix substring
+ * _strspn - gets the length of prefix substring
  * @s: string that is checked
  * @accept: prefix that is measured
- *
  * Return: the number of bytes in the initial segment of s
  * which consist only of bytes from accept
  */
