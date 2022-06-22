@@ -24,7 +24,7 @@ int prime_check(int x, int y)
 
 	else
 	{
-		return(prime_check(x + 1, y));
+		return (prime_check(x + 1, y));
 	}
 }
 
