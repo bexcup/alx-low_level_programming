@@ -1,6 +1,5 @@
 #ifndef SUM_H
 #define SUM_H
-
 /*
  * File: 4-sum.h
  * Desc: A header file that defines a function-like macro SUM(x, y)
