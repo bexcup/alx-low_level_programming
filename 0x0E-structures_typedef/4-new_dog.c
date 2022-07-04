@@ -1,10 +1,11 @@
 #include "dog.h"
 #include <stdlib.h>
 #include <stdio.h>
-
 /**
  * _strdup - creates an array of chars
  * @str: the characters of the array
+ *
+ * Return: void
  */
 char *_strdup(char *str)
 {
@@ -13,7 +14,7 @@ char *_strdup(char *str)
 	unsigned int limiter;
 
 	if (str == NULL)
-	{	
+	{
 		return (NULL);
 	}
 
@@ -23,7 +24,7 @@ char *_strdup(char *str)
 	arraycpy = malloc(counter * sizeof(char));
 
 	if (arraycpy == NULL)
-	{	
+	{
 		return (NULL);
 	}
 
