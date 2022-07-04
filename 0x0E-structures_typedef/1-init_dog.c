@@ -6,7 +6,7 @@
  * @d: The dog to be initialized.
  * name: Name of the dog.
  * @age: How old the dog is.
- * @owner: Title of the person that owns the dog.
+ * @owner: Name of the person that owns the dog.
  *
  * Return: void
  */

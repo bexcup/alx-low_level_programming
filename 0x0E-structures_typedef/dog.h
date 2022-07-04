@@ -6,7 +6,7 @@
  * Desc: A header file that defines a new type struct dog.
  */
 
-/**
+/*
  * struct dog - A new type that describes a dog.
  * @name: Name of the dog.
  * @age: How old the dog is.
@@ -19,7 +19,7 @@ struct dog
 	char *owner;
 };
 
-/**
+/*
  * dog_t - Typdef is new name for the type struct dog.
  */
 typedef struct dog dog_t;
