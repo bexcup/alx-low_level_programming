@@ -1,7 +1,7 @@
 #ifndef DOG_H
 #define DOG_H
 
-/*
+/**
  * struct dog - A new type that describes a dog.
  * @name: Name of the dog.
  * @age: How old the dog is.
