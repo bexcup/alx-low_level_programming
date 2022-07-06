@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "3-calc.h"
 /**
- * get_op_func -  selects the correct function 
+ * get_op_func -  selects the correct function
  *                to perform the operation.
  * @s: operator passed as an argument
  *
@@ -11,16 +11,16 @@
 int (*get_op_func(char *s))(int, int)
 {
 	op_t ops[] = {
-        {"+", op_add},
-        {"-", op_sub},
-        {"*", op_mul},
-        {"/", op_div},
-        {"%", op_mod},
-        {NULL, NULL}
-    };
-    int i;
+	{"+", op_add},
+	{"-", op_sub},
+	{"*", op_mul},
+	{"/", op_div},
+	{"%", op_mod},
+	{NULL, NULL}
+	};
+	int i;
 
-    while (ops[i].op != NULL)
+	while (ops[i].op != NULL)
 	{
 		if (*s == *ops[i].op)
 			return (ops[i].f);
