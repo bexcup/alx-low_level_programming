@@ -15,7 +15,7 @@ int _strlen(const char *str)
 }
 
 /**
- * add_node - Adds a new node at the beginning of a list.
+ * add_node_end - Adds a new node at the end of a list.
  * @head: The head of the linked list.
  * @str: New string to store in the list.
  * Return: The address of the new element, or NULL if it failed
