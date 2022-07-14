@@ -44,4 +44,4 @@ int main(void)
 	print_list(head);
 
 	return (0);
-	}
+}

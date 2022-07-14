@@ -35,7 +35,7 @@ int main(void)
 	free(new->str);
 	new->str = NULL;
 	n = print_list(head);
-	printfintf("-> %lu elements\n", n);
+	printf("-> %lu elements\n", n);
 
 	free(new);
 	return (0);
