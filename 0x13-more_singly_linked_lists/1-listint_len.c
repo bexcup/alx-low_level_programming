@@ -1,7 +1,8 @@
 #include "lists.h"
 /**
  * listint_len - Returns the number of elements in a linked listint_t list.
- * @h:  The struct list.
+ * @h: The struct list.
+ * Return: The number of elements found.
  */
 size_t listint_len(const listint_t *h)
 {
