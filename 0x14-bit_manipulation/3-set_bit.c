@@ -1,8 +1,8 @@
 #include "main.h"
 /**
  * set_bit - Sets the value of a bit to 1 at a given index.
- * @n:
- * @index:
+ * @n: The integer.
+ * @index: The index to set the indices.
  * Return: If an error occurs - -1,
  *         Else 1 if it works.
  */
