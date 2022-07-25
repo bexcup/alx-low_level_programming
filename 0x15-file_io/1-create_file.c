@@ -3,7 +3,7 @@
  * create_file - Creates a file.
  * @filename: Pointer to the file that is read.
  * @text_content: Text to include in the file.
- * If the function fails - -1.
+ * Return: If the function fails - -1.
  *         Otherwise - 1.
  */
 int create_file(const char *filename, char *text_content)
@@ -22,7 +22,7 @@ int create_file(const char *filename, char *text_content)
 	fd = open(filename, O_CREAT | O_RDWR | O_TRUNC, 0600);
 	x = write(fd, text_content, y);
 
-	if (x != y)
+	if (fd == -1 || x == -1)
 		return (-1);
 
 	close(fd);
